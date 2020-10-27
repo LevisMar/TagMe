@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">TagMe</string>
+    <string name="login">accedi</string>
+    <string name="logout">logout</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="confirmation">conferma</string>
+    <string name="attention">attenzione</string>
+    <string name="information">info</string>
+    <string name="success">successo</string>
+    <string name="retry">riprova</string>
+    <string name="go_on">continua</string>
+    <string name="reset">reset</string>
+    <string name="start_transaction">avvia transazione</string>
+    <string name="close">chiudi</string>
+    <string name="login_success">Login effettuato con successo. Bentornato!</string>
+    <string name="email">email</string>
+    <string name="phone">telefono</string>
+    <string name="search">ricerca</string>
+    <string name="next_activity">next</string>
+    <string name="back_activity">back</string>
+
+    <string name="step1">ricerca\nutente</string>
+    <string name="user_data_desc">dati per la ricerca</string>
+    <string name="user_found">utente trovato</string>
+
+    <string name="step2">tipo\ntransazione</string>
+    <string name="trans_type_desc">dati utili</string>
+    <string name="trans_type_desc2">
+        Scegli il tipo di transazione da effettuare sui libri
+        selezionati successivamente, cliccando sull\'apposito pulsante
+    </string>
+    <string name="load">prestito</string>
+    <string name="restitution">restituzione</string>
+
+    <string name="step3">ricerca\nlibro</string>
+    <string name="camera_scan">fotocamera</string>
+    <string name="barcode">barcode</string>
+    <string name="book_list">lista libri</string>
+    <string name="found">trovato</string>
+    <string name="add">aggiungi</string>
+    <string name="delete">cancella</string>
+
+    <string name="step4">riepilogo</string>
+    <string name="transaction">transazione</string>
+    <string name="not_available">non impostato</string>
+    <string name="user_data">dati utente</string>
+
+</resources>

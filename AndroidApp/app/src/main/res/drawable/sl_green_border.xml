@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="@android:color/transparent"/>
+            <stroke android:width="2dp" android:color="@color/fluo_green"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+
+</selector>
+
+    <!--
+        #A9FD00 verde chiaro
+        #69E781 verde scuro
+        #222222 nero
+        #0B2239 blu
+
+        #292F46 blu test
+        #263238 nero test
+
+        #0fa64c verde test
+        #0c6b94 blu test
+
+        #232526 nero test
+        #414345 nero test
+    -->

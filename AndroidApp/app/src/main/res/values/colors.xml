@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFB229</color>
+    <color name="colorPrimaryDark">#FFB229</color>
+    <color name="colorAccent">#FFB229</color>
+    <color name="fluo_green">#A9FD00</color>
+    <color name="l_orange">#FFB229</color>
+    <color name="orange">#EB7D16</color>
+    <color name="l_red">#DD5A4A</color>
+    <color name="red">#DB412E</color>
+    <color name="l_blue">#2196F3</color>
+    <color name="blue">#3F51B5</color>
+    <color name="blue_border">#263238</color>
+    <color name="white">#FFFFFF</color>
+</resources>

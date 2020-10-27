@@ -1,0 +1,524 @@
+@charset "ISO-8859-1";
+
+html, body 
+{
+    height: 100%;
+}
+
+.login-page, .register-page 
+{
+    background: url(/gestionelibri/img/sfondi/pattern1.png); 
+	background-repeat: repeat;
+}
+
+/*** HEADER ***/
+/* Dimensione header */
+.main-header
+{
+	height:5.4em !important;
+}
+
+/* Logo presente nell'header */
+.main-header .logo
+{
+	height:100%; 
+	padding-bottom:0.5em;
+}
+
+.main-header .logo .logo-lg
+{
+	padding-top: 1em !important;
+}
+
+/* Logo quanto è versione ridotta*/
+.main-header .logo .logo-mini
+{
+	padding: 1em 0.25em !important; 
+}
+
+/* Formattazione scritta username nell'header */
+.main-header .username
+{
+	font-size: 30px;
+	color: white;
+	padding-right:0.5em;
+	line-height: 1.1;
+}
+
+.sidebar-menu span, .sidebar-menu i
+{
+	color: #FFB229;
+}
+
+.sidebar-menu span
+{
+	margin-left: 10px;
+}
+
+.sidebar-menu a
+{
+	border-bottom: 2px solid #FFB229;
+}
+
+/* Pulsante che apre/chiude menù laterale */
+.main-header .sidebar-toggle:before 
+{
+    content: "\f0c9";
+    font-size: 2.1em;
+    color: #FFB229;
+}
+/*** FINE HEADER ***/
+
+/* Parte di sfondo per la pagina */
+.content-wrapper
+{
+	background: url(/gestionelibri/img/sfondi/pattern2.png); 
+	background-repeat: repeat;
+}
+
+/* Linea orizzonatale  */
+hr.gold 
+{
+  border: 1px solid #CC9900;
+}
+
+/* Riquadro immagine di profilo */
+#img_prof div
+{
+	margin-top: 2em;
+}
+
+/* Immagine di profilo */	
+#img_prof img
+{
+	border: 4px solid #A9FD00;
+}
+
+/* Riquadro info entità */
+#info, #info input
+{
+	color: #0b2239;
+	font-weight: 700;
+}
+
+/* Riquadro info entità */
+#info .info_box
+{
+	margin-top: 1em;
+}
+
+/* Barra di ricerca di un autore/editore */
+#searchBar
+{
+	border-right: 3px solid #CC9900;
+}
+
+#searchBook
+{
+	padding-bottom: 15px;
+}
+
+/* Input e select dentro il riquadro
+   della barra di ricerca di un'entità */
+#searchBar input, #searchBar select, #searchBook input, #searchBook select
+{
+	font-weight: 700;
+	border: 2px solid #A9FD00;
+	color: #0b2239;
+}
+
+/* Button presente nel riquadro 
+   per l'aggiunta di un'entità */		
+#addEntity button
+{
+	margin-top: 1em;
+}
+
+/* Riquadro che racchiude un'entità */
+#entity_box, #entity_box_u
+{
+	padding-top: 1em;
+}
+
+/* Immagine associata all'entità */	
+#entity_box img
+{
+	height: auto;
+	width: 100%;	
+	min-height: 9.5em;
+}
+
+#entity_box_u img
+{
+	height: auto;
+	width: 100%;	
+}
+
+/* Indirizzo verso il profilo dell'entità */	
+#entity_box a, #entity_box_u a
+{
+	font-weight: 700;
+	color: #0b2239;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#entity_box	span, #entity_box_u span
+{
+	font-size: 0.8em;
+}
+
+/* Quando clicco su un riquadro utente (users.jsp) */
+#entity_box_u	span[id^="e_"]
+{
+	cursor: pointer;
+	font-size: 1.2em;	
+}
+
+/* Riquadro con info su un libro (aut/pub profile) */
+#book
+{
+	border: 2px solid #CC9900;
+	border-radius: 10px;
+	padding:5px;
+	margin-bottom: 10px;
+}
+
+/* Riquadro info su libro scritto 
+   da autore/editore (aut/pub profile) */
+#book
+{
+	padding: 10px;
+}
+
+/* Link verso il profilo del libro */
+#book .book_name
+{
+	font-size: 2em;
+}
+
+/* Altre info associate al libro */					
+#book .book_detail
+{
+	font-size: 1em;
+	margin-bottom: 0.5em;
+}	
+		
+/* Altre info associate al libro */			
+#book .book_detail:nth-of-type(2), #book .book_detail:last-of-type
+{
+	border-bottom: 2px solid #A9FD00;
+}
+
+/* Riquadro che presenta lista libri (books.jsp) */
+#book_cover div, #book img
+{
+	margin-top: 0.5em;
+}
+
+/* Immagine copertina libro */			
+#book_cover img, #book img
+{
+	height: auto;
+	width: 100%;
+	border: 4px solid #A9FD00 !important;
+	min-height: 12em;
+}
+
+#book_cover img
+{
+	min-height: 15.5em;
+}
+
+/*** MODAL DIALOG ***/
+
+/* Riquadro che contiene il modal quando si aggiunge entità */
+#modal_add .modal-content
+{
+	border: 2px solid #FFB229;
+	border-radius: 10px;
+	background-color: #eefed8;
+}
+
+/* Intestazione del modal*/
+#modal_add .modal-header
+{
+	background-color: #FFB229;
+	border-radius: 5px;
+}
+
+/* Pulsante di chiusura del dialog */
+#modal_add .modal-header .close
+{
+	font-size: 3em;
+}
+
+.modal-header .close
+{
+	font-size: 2em;
+}
+
+/*** FINE MODAL DIALOG ***/
+
+/*** STILE TABELLA ***/
+
+.table-el
+{
+	background-color: white;	
+}
+
+.table-el thead
+{
+	background-color: #A9FD00;
+}
+
+.table-el tr th, .table-el tr td
+{
+	text-align: center;
+}
+
+.table-el td
+{
+	vertical-align: middle !important;
+}
+
+.table-el th, .table-el td
+{
+	border: 3px groove #103152!important;
+}
+
+/*** FINE STILE TABELLA ***/
+
+/*** STILE CHECKBOX ***/
+
+/* Input checkbox */
+.checkbox 
+{
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0b2239 !important;
+  font-weight: 600 !important;
+}
+
+/* Nasconde il checkbox di default */
+.checkbox input 
+{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Crea un checkbox custom */
+.checkmark 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border: 1px solid #A9FD00;
+}
+
+/* Aggiunge uno sfondo grigio, quando sopra con il mouse */
+.checkbox:hover input ~ .checkmark 
+{
+  background-color: #ccc;
+}
+
+/* Quando la checkbox viene premuta, aggiunge uno sfondo verde */
+.checkbox input:checked ~ .checkmark 
+{
+  background-color: #A9FD00;
+}
+
+/* Crea l'indicatore di checkbox premuta (nascosta altrimenti) */
+.checkmark:after 
+{
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Mostra l'indicatore quando si preme la checkbox */
+.checkbox input:checked ~ .checkmark:after 
+{
+  display: block;
+}
+
+/* Stile applicato all'indicatore */
+.checkbox .checkmark:after 
+{
+  left: 4px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*** FINE STILE CHECKBOX ***/
+
+/* STILE LINEA CON PIù DIV ALLA STESSA ALTEZZA (search_barcode.jsp) */
+.row_height
+{
+	overflow: hidden;
+}
+
+.row_height .same_height_left, .row_height .same_height_right
+{
+	margin-bottom: -99999px;
+ 	padding-bottom: 99999px;
+}
+
+.same_height_left
+{
+	border-right: 2px solid #CC9900;
+	border-radius: 10px;
+	padding:5px;
+}
+
+.same_height_right
+{
+	border-left: 2px solid #CC9900;
+	border-radius: 10px;
+	padding:5px;
+}
+
+/* Quando viene visualizzato su uno schermo piccolo */
+@media (max-width: 767px)
+{
+	.main-header .logo .logo-lg
+	{
+		padding-top:0.2em !important;
+	}
+	
+	/* Menu laterale aggiungo più padding top */
+	.main-sidebar 
+	{
+	    padding-top: 8.9em;
+	}
+		
+	/* Animazione quando apro il menù laterale */
+	.sidebar-open .content-wrapper, .sidebar-open .main-footer 
+	{
+	    -webkit-transform: translate(230px, 0);
+	    -ms-transform: translate(230px, 0);
+	    -o-transform: translate(230px, 0);
+	    transform: translate(230px, 0);
+	}
+	
+	/* Sposto un pò più in basso il contenuto della pagina */
+	.content-wrapper, .main-footer 
+	{
+	    margin-left: 0;
+	    margin-top: 48px;
+	}
+	
+	.row_height .same_height_left, .row_height .same_height_right
+	{
+		margin-bottom: 0px;
+		padding-bottom: 10px;
+	}
+	
+	.same_height_left
+	{
+		border-bottom: 2px solid #CC9900;
+		border-right: 0px solid #CC9900;
+		border-radius: 10px;
+		padding:5px;
+	}
+	
+	.same_height_right
+	{
+		border-top: 2px solid #CC9900;
+		border-left: 0px solid #CC9900;
+		border-radius: 10px;
+		padding:5px;
+	}
+	
+	#searchBar div, #searchBook div
+	{
+		margin-bottom: 10px;
+	}
+	
+	#searchBar
+	{
+		border-right: 0px solid #CC9900;
+		border-bottom: 3px solid #CC9900;
+		padding-bottom: 10px;
+	}
+	
+	#book
+	{
+		border: 0px solid #CC9900;
+		border-radius: 0px;
+		padding:20px;
+	}
+	
+	#book #book_cover
+	{
+		padding: 0px;
+	}
+	
+	#book_info
+	{
+		display: none;
+	}
+}
+
+/* Quando viene visualizzato su uno schermo medio (tablet) */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	#book
+	{
+		border: 0px solid #CC9900;
+		border-radius: 0px;
+		padding:20px;
+	}	
+	
+	#searchBar
+	{
+		border-right: 0px solid #CC9900;
+		border-bottom: 3px solid #CC9900;
+		padding-bottom: 10px;
+	}	
+	
+	#book #book_cover
+	{
+		padding: 0px;
+	}
+	
+	#book_info
+	{
+		display: none;
+	}
+}
+
+/* Quando viene visualizzato su uno schermo molto grande (desktop) */
+@media (min-width: 1581px) 
+{
+  
+ 	#book_cover img
+	{
+		min-height: 26em;
+	}
+	
+	#entity_box img
+	{
+		min-height: 16em;
+	}
+  
+}

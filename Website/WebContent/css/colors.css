@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+
+/* Colore bianco */
+.white
+{
+	color: white;
+}
+
+/* Colore blu scuro */
+.dark
+{
+	color: #0b2239;
+}
+
+/* Colore verde chiaro */			
+.green_light
+{
+	color: #A9FD00;
+}
+
+/* Colore verde scuro */		
+.green_dark
+{
+	color: #69E781;
+}
+
+/* Colore orancione chiaro */		
+.orange_light
+{
+	color: #FFB229;
+}
+
+/* Colore arancione scuro */		
+.orange_dark
+{
+	color: #EB7D16;
+}
+
+/* Colore rosso chiaro */		
+.red_light
+{
+	color: #DD5A4A;
+}
+
+/* Colore rosso scuro */		
+.red_dark
+{
+	color: #DB412E;
+}
+
+/* Colore blu chiaro */		
+.blue_light
+{
+	color: #2196F3;
+}
+
+/* Colore blu scuro */		
+.blue_dark
+{
+	color: #3F51B5;
+}
+
+/* Colore oro */
+.gold
+{
+	color: #CC9900;
+}

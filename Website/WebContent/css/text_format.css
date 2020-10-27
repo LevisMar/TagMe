@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+/* Testo con effetto ombreggiato */		
+.shadow
+{
+	text-shadow: 4px 4px 0 #000;
+}
+
+/* ombreggiatura testo */
+.shadow_sm
+{
+	text-shadow: 1px 1px 0 #000;
+}
+
+.shadow_wh
+{
+	text-shadow: 2px 2px 0 #ffffff;
+}
+
+/* STILE LINEA MIDDLE SU UN TITOLO H1 (login.jsp) */
+.line 
+{
+	overflow: hidden;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.line:before, .line:after 
+{
+	background-color: #CC9900;
+	content: "";
+	display: inline-block;
+	height: 3px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+
+.line:before 
+{
+	margin-left: -50%;
+}
+
+.line:after 
+{
+	margin-right: -50%;
+}
+
+/* FINE STILE LINEA */
+
+/* Testo descrizione welcome page CANCELLARE? */
+.welcome_txt
+{
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-size: 3.4em;
+	font-weight: 900;
+}

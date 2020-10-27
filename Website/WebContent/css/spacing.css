@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+/* DIVERSE MISURE DI SPAZIATURA */
+
+/* Margin x 0.5em */
+.marghalf
+{
+	margin: 0.5em;
+}
+
+/* Margin-top x 1em */
+.margtopx1
+{
+	margin-top: 1em !important;
+}
+
+/* Margin-top x 2em */
+.margtopx2
+{
+	margin-top: 2em !important;
+}
+
+/* Margin-bottom x 1em */
+.margbottomx1
+{
+	margin-bottom: 1em !important;
+}
+
+/* Margin-bottom x 2em */
+.margbottomx2
+{
+	margin-bottom: 2em !important;
+}
+
+/* Padding x 0.5em */
+.padhalf
+{
+	padding: 0.5em !important;
+}
+
+/* Padding x 1em */
+.padx1
+{
+	padding: 1em !important;
+}
+
+/* Padding x 1em altezza e 2em larghezza*/
+.padx1_2
+{
+	padding: 1em 2em !important;
+}
+
+/* Padding x 2em */
+.padx2
+{
+	padding: 2em !important;
+}
+
+/* Margini delle righe principali */
+.row_marg
+{
+	margin: 2em 0.5em;
+}
+
+/* Larghezza piena (es per gli input) */
+.full_width
+{
+	width: 100%;
+}

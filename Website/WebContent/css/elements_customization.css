@@ -1,0 +1,149 @@
+@charset "ISO-8859-1";
+/* STILI PER ABBELLIRE GLI ELEMENTI DELLA PAGINA */
+
+.border
+{
+	border: 2px solid black;
+}
+
+/* Bordo grigio */
+.border_gr
+{
+	border: 2px solid #808080;
+}
+
+/* Bordo arancione arrotondato*/
+.border_o
+{
+	border: 2px solid #FFB229;
+	border-radius: 10px;
+	padding:5px;
+}
+
+/* Bordo giallo arrotondato */
+.border_y
+{
+	border: 2px solid #CC9900;
+	border-radius: 10px;
+	padding:5px;
+}
+
+/* Bordo sinistro giallo arrotondato */
+.border_l_y
+{
+	border-left: 2px solid #CC9900;
+	border-radius: 10px;
+	padding:5px;
+}
+
+/* Bordo destro giallo arrotondato */
+.border_r_y
+{
+	border-right: 2px solid #CC9900;
+	border-radius: 10px;
+	padding:5px;
+}
+
+/* Bordo superiore arrotondato */
+.border_t_y
+{
+	border-top: 2px solid #CC9900;
+	border-radius: 10px;
+	padding:5px;
+}
+
+/* Bordo inferiore giallo arrotondato */
+.border_b_y
+{
+	border-bottom: 2px solid #CC9900;
+	border-radius: 10px;
+	padding:5px;
+}
+
+/* Bordo verde chiaro */
+.border_lg
+{
+	border: 2px solid #A9FD00;
+	padding: 5px;
+}
+
+/* Bordo verde chiaro con focus */
+.border_lg:focus
+{
+	border: 2px solid #A9FD00;
+    box-shadow: 0px 1px 1px #6b8457 inset, 0px 0px 8px #A9FD00;
+    outline: 0;
+}	
+
+/* Bordo verde non arrotondato */
+.border_g_s
+{
+	border: 2px solid #A9FD00;
+	padding: 5px;
+	background-color: white;
+}
+
+/* Bordo verde arrotondato */
+.border_g
+{
+	border: 2px solid #A9FD00;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+/* Bordo più verde o con ombreggiatura */
+.border_g:focus
+{
+	border: 2px solid #97df00;
+    box-shadow: 0px 1px 1px #97df00 inset, 0px 0px 8px #6b8457;
+    outline: 0;
+}
+
+/* Bordo verde arrotondato delle select */
+.border_g_select
+{
+	border: 2px solid #A9FD00;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+/* In focus arrotondo solo parte superiore */
+.border_g_select:focus
+{
+	border-color: #97df00;
+	border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 1px 1px #97df00 inset, 0px 0px 8px #6b8457;
+    outline: 0;
+}
+
+/* Sfondo verde chiaro */
+.background_g
+{
+	background-color: #eefed8;
+}
+
+/* Sfondo verde chiaro */
+.background_grey
+{
+	background-color: #e8e8e8;
+}
+
+/* input con più elementi verde */
+.input-group-green
+{
+	border: 1px solid #A9FD00;
+	margin-bottom: 0.5em;
+}
+
+/* input con più elementi (parte icona) */
+.input-group-green .input-group-addon
+{
+	background-color: #A9FD00;
+	color: #0b2239;
+}
+
+/* Rende una textarea non ridimensionabile */
+.noresize 
+{
+	resize: none; 
+}
