@@ -16,6 +16,7 @@ Lato front-end:
 * jQuery, Javascript, HTML, CSS (Bootstrap).
 
 Screenshot:
+| | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="1604" alt="Login" src="Web Screenshot/1.png">  |  <img width="1604" alt="Homepage" src="Web Screenshot/2.png">|<img width="1604" alt="Users" src="Web Screenshot/3.png">|
 |<img width="1604" alt="Add User" src="Web Screenshot/4.png">  |  <img width="1604" alt="User Profile" src="Web Screenshot/5.png">|<img width="1604" alt="Authors" src="Web Screenshot/6.png">|
