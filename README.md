@@ -17,7 +17,7 @@ Lato front-end:
 
 
 ## Applicazione mobile (Android)
-L'app mobile verrà utilizzata da un membro dello sta per registrare le transazioni, che siano prestiti o restituzioni, sui libri da parte di un determinato utente. L'app catturerà il barcode del libro (ISBN), che verrà poi usato per cercare in modo automatico il libro all'interno del sistema.
+L'app mobile verrà utilizzata da un membro dello staff per registrare le transazioni, che siano prestiti o restituzioni, sui libri da parte di un determinato utente. L'app catturerà il barcode del libro (ISBN), che verrà poi usato per cercare in modo automatico il libro all'interno del sistema.
 #### Tecnologie utilizzate
 * Android nativo / Java;
 * Jersey, un framework open-source usato per sviluppare Web Services RESTful in Java, per comunicare con il server.
