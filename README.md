@@ -37,3 +37,15 @@ Screenshot:
 |<img width="1604" alt="Login" src="Screenshot/app-1.png">  |  <img width="1604" alt="Login confirm" src="Screenshot/app-2.png">|<img width="1604" alt="User search" src="Screenshot/app-3.png">|
 |<img width="1604" alt="Transaction" src="Screenshot/app-4.png">  |  <img width="1604" alt="Book search" src="Screenshot/app-5.png">|<img width="1604" alt="Summary" src="Screenshot/app-6.png">|
 
+
+## Applicazione web 2.0
+Recentemente sto provando a rifare il front-end del sito per dare un'interfaccia utente più bella da vedere. Di seguito alcuni screenshot dei risultati:
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="Login" src="Screenshot/nweb-1.png">  |  <img width="1604" alt="Homepage" src="Screenshot/nweb-2.png">|<img width="1604" alt="Users" src="Screenshot/nweb-3.png">|
+|<img width="1604" alt="Add User" src="Screenshot/nweb-4.png">  |  <img width="1604" alt="User Profile" src="Screenshot/nweb-5.png">|<img width="1604" alt="Authors" src="Screenshot/nweb-6.png">|
+|<img width="1604" alt="Add Author" src="Screenshot/nweb-7.png">  |  <img width="1604" alt="Author Profile" src="Screenshot/nweb-8.png">|<img width="1604" alt="Publishers" src="Screenshot/nweb-9.png">|
+|<img width="1604" alt="Add Publisher" src="Screenshot/nweb-10.png">  |  <img width="1604" alt="Publisher Profile" src="Screenshot/nweb-11.png">|<img width="1604" alt="Books" src="Screenshot/nweb-12.png">|
+|<img width="1604" alt="Advanced search" src="Screenshot/nweb-13.png">  |  <img width="1604" alt="Barcode search" src="Screenshot/nweb-14.png">| <img width="1604" alt="Add Book" src="Screenshot/nweb-15.png">|
+|<img width="1604" alt="Book Profile" src="Screenshot/nweb-16.png">  |  <img width="1604" alt="Dialog error" src="Screenshot/nweb-17.png">| <img width="1604" alt="Dialog success" src="Screenshot/nweb-18.png">|
