@@ -18,20 +18,11 @@ Lato front-end:
 Screenshot:
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="Login" src="Web Screenshot/web-1.png">  
-|<img width="1604" alt="Homepage" src="Web Screenshot/web-2.png">
-|<img width="1604" alt="Users" src="Web Screenshot/web-3.png">|
-|<img width="1604" alt="Add User" src="Web Screenshot/web-4.png">  
-|<img width="1604" alt="User Profile" src="Web Screenshot/web-5.png">
-|<img width="1604" alt="Authors" src="Web Screenshot/web-6.png">|
-|<img width="1604" alt="Add Author" src="Web Screenshot/web-7.png">  
-|<img width="1604" alt="Author Profile" src="Web Screenshot/web-8.png">
-|<img width="1604" alt="Publishers" src="Web Screenshot/web-9.png">|
-|<img width="1604" alt="Add Publisher" src="Web Screenshot/web-10.png">  
-|<img width="1604" alt="Publisher Profile" src="Web Screenshot/web-11.png">
-|<img width="1604" alt="Add Book" src="Web Screenshot/web-12.png">|
-|<img width="1604" alt="Books" src="Web Screenshot/web-13.png">  
-|<img width="1604" alt="Book Profile" src="Web Screenshot/web-14.png">| |
+|<img width="1604" alt="Login" src="Screenshot/web-1.png">  |  <img width="1604" alt="Homepage" src="Screenshot/web-2.png">|<img width="1604" alt="Users" src="Screenshot/web-3.png">|
+|<img width="1604" alt="Add User" src="Screenshot/web-4.png">  |  <img width="1604" alt="User Profile" src="Screenshot/web-5.png">|<img width="1604" alt="Authors" src="Screenshot/web-6.png">|
+|<img width="1604" alt="Add Author" src="Screenshot/web-7.png">  |  <img width="1604" alt="Author Profile" src="Screenshot/web-8.png">|<img width="1604" alt="Publishers" src="Screenshot/web-9.png">|
+|<img width="1604" alt="Add Publisher" src="Screenshot/web-10.png">  |  <img width="1604" alt="Publisher Profile" src="Screenshot/web-11.png">|<img width="1604" alt="Add Book" src="Screenshot/web-12.png">|
+|<img width="1604" alt="Books" src="Screenshot/web-13.png">  |  <img width="1604" alt="Book Profile" src="Screenshot/web-14.png">| |
 
 
 ## Applicazione mobile (Android)
@@ -39,3 +30,10 @@ L'app mobile verrà utilizzata da un membro dello staff per registrare le transa
 #### Tecnologie utilizzate
 * Android nativo / Java;
 * Jersey, un framework open-source usato per sviluppare Web Services RESTful in Java, per comunicare con il server.
+
+Screenshot:
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="Login" src="Screenshot/app-1.png">  |  <img width="1604" alt="Login confirm" src="Screenshot/app-2.png">|<img width="1604" alt="User search" src="Screenshot/app-3.png">|
+|<img width="1604" alt="Transaction" src="Screenshot/app-4.png">  |  <img width="1604" alt="Book search" src="Screenshot/app-5.png">|<img width="1604" alt="Summary" src="Screenshot/app-6.png">|
+
