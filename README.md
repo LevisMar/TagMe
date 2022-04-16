@@ -18,11 +18,20 @@ Lato front-end:
 Screenshot:
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="Login" src="Web Screenshot/1.png">  |  <img width="1604" alt="Homepage" src="Web Screenshot/2.png">|<img width="1604" alt="Users" src="Web Screenshot/3.png">|
-|<img width="1604" alt="Add User" src="Web Screenshot/4.png">  |  <img width="1604" alt="User Profile" src="Web Screenshot/5.png">|<img width="1604" alt="Authors" src="Web Screenshot/6.png">|
-|<img width="1604" alt="Add Author" src="Web Screenshot/7.png">  |  <img width="1604" alt="Author Profile" src="Web Screenshot/8.png">|<img width="1604" alt="Publishers" src="Web Screenshot/9.png">|
-|<img width="1604" alt="Add Publisher" src="Web Screenshot/10.png">  |  <img width="1604" alt="Publisher Profile" src="Web Screenshot/11.png">|<img width="1604" alt="Add Book" src="Web Screenshot/12.png">|
-|<img width="1604" alt="Books" src="Web Screenshot/13.png">  |  <img width="1604" alt="Book Profile" src="Web Screenshot/14.png">| |
+|<img width="1604" alt="Login" src="Web Screenshot/web-1.png">  
+|<img width="1604" alt="Homepage" src="Web Screenshot/web-2.png">
+|<img width="1604" alt="Users" src="Web Screenshot/web-3.png">|
+|<img width="1604" alt="Add User" src="Web Screenshot/web-4.png">  
+|<img width="1604" alt="User Profile" src="Web Screenshot/web-5.png">
+|<img width="1604" alt="Authors" src="Web Screenshot/web-6.png">|
+|<img width="1604" alt="Add Author" src="Web Screenshot/web-7.png">  
+|<img width="1604" alt="Author Profile" src="Web Screenshot/web-8.png">
+|<img width="1604" alt="Publishers" src="Web Screenshot/web-9.png">|
+|<img width="1604" alt="Add Publisher" src="Web Screenshot/web-10.png">  
+|<img width="1604" alt="Publisher Profile" src="Web Screenshot/web-11.png">
+|<img width="1604" alt="Add Book" src="Web Screenshot/web-12.png">|
+|<img width="1604" alt="Books" src="Web Screenshot/web-13.png">  
+|<img width="1604" alt="Book Profile" src="Web Screenshot/web-14.png">| |
 
 
 ## Applicazione mobile (Android)
